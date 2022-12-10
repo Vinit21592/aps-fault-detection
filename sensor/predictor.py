@@ -3,10 +3,10 @@ from sensor.entity.config_entity import TRANSFORMER_OBJECT_FILE_NAME,MODEL_FILE_
 from glob import glob
 from typing import Optional
 import os
-class ModelResolver:
 
-    
-    
+
+class ModelResolver:
+   
     def __init__(self,model_registry:str = "saved_models",
                 transformer_dir_name="transformer",
                 target_encoder_dir_name = "target_encoder",
